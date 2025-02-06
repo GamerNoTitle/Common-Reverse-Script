@@ -100,4 +100,4 @@ if __name__ == '__main__':
             sys.exit(1)
 
     decrypted_data = rc4_decrypt(ciphertext, key, rounds, xor_value, vector)
-    print("解密后的内容为: ", decrypted_data)
+    print("解密后的内容为: ", decrypted_data.decode())
